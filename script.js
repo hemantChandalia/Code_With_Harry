@@ -452,3 +452,77 @@ function ageToDays(a,b,c){
 
 console.log(ageToDays(30,8,23));
 
+// ====================Practice Set 4=================
+
+// Q1==================
+let str = "harry\"";
+console.log(str.length);
+
+// Q2===============
+
+const sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const word = 'fox';
+
+console.log(
+  `The word "${word}" ${
+    sentence.includes(word) ? 'is' : 'is not'
+  } in the sentence`,
+);
+// includes searches and while searches it is case sensitives > lowercase and uppercase
+ 
+let stra = "Welcome to GeeksforGeeks.";
+let check = stra.includes("Geeks");
+console.log(check);
+
+let strg = "we are good friends and keep encouraging one another as usual";
+let check1 = strg.includes("friends");
+let word1 = 'good'
+console.log(check1);
+` the word "${word1}" ${strg.includes(word1) ? 'is' : 'is not'} in the sentence`
+
+//  startWith is also case sensitiveness 
+
+let check2 = strg.startsWith("we");
+console.log(check2);
+
+//  endsWith is also case sensitiveness 
+let check3 = strg.endsWith("usual");
+console.log(check3);
+
+
+// Q3======================================
+let strg2 = "WE ARE GOOD FRIENDS AND KEEP ENCOURAGING ONE ANOTHER AS USUAL"
+console.log(strg.toUpperCase());
+console.log(strg2.toLowerCase());
+
+
+// Q4======================================
+
+let extr = "we are good friends and keep encouraging one another as usual by Rs 100000";
+
+
+let amount = extr;
+
+
+// let amount = Number.parseInt(extr);
+
+// difference after using the parseInt > it is then number
+// when we dont use parseInt > then it is just a string
+console.log(typeof amount);
+console.log(typeof extr);
+console.log(extr.length);
+console.log(extr.substring(1,41))
+// differnce between slice and substing
+console.log(extr.slice(65))
+
+
+// Q5======================================
+
+extr[1] = "V"
+console.log(extr)
+
+// string are immutable and most importantly it does not show any error in console
+
+
+

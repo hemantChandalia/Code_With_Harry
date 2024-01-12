@@ -131,3 +131,84 @@ const hello =()=>{
 
 let v = hello();
 console.log(v)
+
+// ============================
+
+
+// Create a function that takes voltage and current and returns the calculated power.
+
+// Examples
+
+// circuitPower(230, 10) ➞ 2300
+
+
+// let a = prompt("Enter Voltage Value");
+// let b = prompt("Enter Current Value");
+let a = 9;
+let b = 4;
+let a = prompt("Enter an integer:");
+while (a === null || !Number.isInteger(parseInt(a)));
+
+// Now, userInput contains a valid integer
+console.log("You entered voltage : " + parseInt(a));
+let b = prompt("Enter an integer:");
+ while (b === null || !Number.isInteger(parseInt(a)));
+
+
+// Now, userInput contains a valid integer
+console.log("You entered current : " + parseInt(b));
+
+function powCal(a,b){
+    const voltCurr = a*b
+    return "circuitPower(a,b) = " + voltCurr + " Watts."
+}
+console.log(powCal(a,b));
+
+function fits(x, y) {
+    if (Number.isInteger(y / x)) {
+      return 'Fits!';
+    }
+    return 'Does NOT fit!';
+  }
+  
+  console.log(fits(5, 10));
+  // Expected output: "Fits!"
+  
+  console.log(fits(5, 11));
+  // Expected output: "Does NOT fit!"
+
+  let userInput;
+
+do {
+    userInput = prompt("Enter an integer:");
+} while (userInput === null || !Number.isInteger(parseInt(userInput)));
+
+// Now, userInput contains a valid integer
+console.log("You entered: " + parseInt(userInput));
+
+
+// ================Array===============
+
+
+let xs = [1,3,4,5,6,75,4,3,5,6,6,664,34,3,"not present",null,];
+for ( i = 0; i < xs.length; i++) { 
+    console.log(xs[i]);
+ }
+
+xs.forEach((x, i) => console.log(x));
+
+for (const x of xs) { console.log(x); }
+
+ xs[6] = 97;
+ console.log(xs);
+ console.log(xs.length);
+ console.log(typeof xs[14]);
+ console.log(typeof xs[15]);
+ console.log(typeof xs[16]);
+ console.log(typeof xs[18]);
+
+const array = ["one", "two", "three"]
+array.forEach(function (item, index) {
+  console.log(item, index);
+});
+
