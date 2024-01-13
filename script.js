@@ -524,5 +524,58 @@ console.log(extr)
 
 // string are immutable and most importantly it does not show any error in console
 
+// ====================Practice Set 5======================
+
+// Q1=======================================
+
+let arr = [1,2,3,4,5,6,7,83]
+let a= prompt("enter a number");
+
+a = Number.parseInt(a);
+arr.push(a)
+console.log(arr)
+
+// check it on browser
+
+// Q2=======================================
+let arr = [1,2,3,4,5,6,7,83];
+let a;
+
+do {
+    a=prompt("enter a number")
+    a= Number.parseInt(a)
+    arr.push(a)
+    
+} while (a !=0);
+console.log(arr);
+
+// Q3=======================================
+
+let arr = [1,2,3,4,90,5,40,6,7,83,30,50,630];
+
+let n1 = arr.filter((x) => {
+    return x%10 == 0
+})
+console.log(n1);
+
+// Q4=======================================
+
+let arr = [1,2,3,4,90,5,40,6,7,83,30,50,630];
+let n = arr.map((x) => {
+    return x*x == 8100
+})
+console.log(n);
+
+// Q5===========================================
+
+let arr5 = [1,2,3,4,5];
+// let arr5 = [1,2,3];
+let v = arr.reduce((x1,x2) => {
+    return x1*x1
+    // return x1*x2*x1
+})
+console.log(v)
+
+
 
 
