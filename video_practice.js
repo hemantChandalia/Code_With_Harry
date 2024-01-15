@@ -293,7 +293,38 @@ let a = arr.map ((value,index,array )=>{
     console.log(value,index,array)
     return value + index
 })
-console.log(a)
+console.log(a);
+
+// learning the concept of time and timeEnd- video no.- 25
+
+console.time("forLoop")
+for (let i =0; i<5;i++){
+    console.log(233)
+
+}
+console.timeEnd("forLoop")
+
+console.time("whileLoop")
+let i = 0;
+while (i<5) {
+    i++
+    console.log(233)
+}
+
+console.timeEnd("whileLoop")
+
+let a = prompt("enter a anything");
+// document.write(a);
+a = Number.parseInt(a);
+
+
+// using the conirm dialog  to write in js- video no.27
+let write = confirm("do you want to write it to the page");
+if (write){
+    document.write(a)
+}else{
+    document.write("please allow me to write")
+}
 
 
 

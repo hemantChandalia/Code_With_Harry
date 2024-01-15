@@ -578,4 +578,106 @@ console.log(v)
 
 
 
+// Practice Set- 6==================================================
+
+// Q1 ==================================================
+
+let age = prompt("enter your age ")
+age = Number.parseInt(age);
+const canDrive = (age)=>{
+    return age >=18 ? true:false
+}
+
+
+if (canDrive(age)) {
+    alert("you can drive")
+    
+} else {
+    alert("you cannot drive")
+}
+// how i did this===============
+// Q1=============================
+
+let age = prompt("Enter the age.");
+age = Number.parseInt(age);
+
+    if (age < 18 ) {
+        alert(`you are a kid and you cannot drive because you are ${age} years old`)    
+    }else {
+        alert("you can drive because you are above 18 years old")
+    }
+let result
+
+//  another method - by using the function
+
+function testAge(a){
+    if (a<=18){
+        result = `you are a kid and you cannot drive because you are ${a} years old.`
+    }else {
+        result = `you can drive because you are above 18 years old and yours present age is ${a} years old.`
+    }
+    return result;
+}
+
+console.log(testAge(10));
+
+// Q2 ==================================================
+
+
+const canDrive = (age)=>{
+    return age >=18 ? true:false
+}
+let runAgain = true;
+
+while(runAgain){
+    let age = prompt("enter your age ")
+age = Number.parseInt(age);
+
+if (canDrive(age)) {
+    alert("you can drive")
+    
+} else {
+    alert("you cannot drive")
+}
+runAgain = confirm("do you want to play again ?")
+}
+
+// Q3 ==================================================
+
+const canDrive = (age)=>{
+    return age >=18 ? true:false
+}
+let runAgain = true;
+
+while(runAgain){
+    let age = prompt("enter your age ")
+age = Number.parseInt(age);
+if (age<0){
+    console.error("please enter a vaild age");
+    break;
+}
+
+if (canDrive(age)) {
+    alert("you can drive")
+    
+} else {
+    alert("you cannot drive")
+}
+runAgain = confirm("do you want to play again ?")
+}
+
+// Q4 ==================================================
+
+let num = prompt("enter a number")
+num = Number.parseInt(num)
+
+if (num>8){
+    location.href = "google.co.in"
+}
+
+let color = prompt("type a color you wants")
+document.body.style.background = color
+
+
+
 
