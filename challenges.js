@@ -162,3 +162,67 @@ console.log(countBits(7)); // 3
 console.log(countBits(9)); // 2
 console.log(countBits(5)); // 2
 console.log(countBits(1234)); // 5
+
+
+
+//  Exes and Ohs
+// Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The input string can contain any character
+
+
+
+
+// const XO = str => {
+//   const lowerStr = str.toLowerCase();
+//   let result = 0;
+//   for (const letter of lowerStr) {
+//     if (letter === 'x') {
+//       result++;
+//     } else if (letter === 'o') {
+//       result--;
+//     }
+//   }
+
+//   return !result;
+// };
+
+
+const XO= (str) => {
+  // Convert the input string to lowercase
+  const lowerStr = str.toLowerCase();
+
+  // Count the occurrences of 'x' and 'o'
+  const countX = (lowerStr.match(/x/g) || []).length;
+  const countO = (lowerStr.match(/o/g) || []).length;
+
+  // Check if the counts are equal
+  return countX === countO;
+};
+
+console.log(XO('xo')); // true
+console.log(XO('Oo')); // false
+console.log(XO('xxOo')); // true
+console.log(XO('xxxm')); // false
+console.log(XO('ooom')); // false
+console.log(XO('ty')); // true (when no 'x' and 'o' is present should return true)
+
+
+// // Sum of Positives
+// Given an array of numbers, write a function that returns the sum of all of the positives ones. If the array is empty, the sum should be 0.
+
+const positiveSum = arr => {
+  return arr.reduce((acc, cur) => (cur > 0 ? acc + cur : acc), 0);
+};
+
+//   arr.reduce(...): The reduce method is used to iterate over each element of the array (arr) and accumulate a single result. In this case, the result is the sum of positive numbers in the array.
+
+// (acc, cur) => (cur > 0 ? acc + cur : acc): This is the callback function provided to reduce. It takes two parameters - acc (accumulator) and cur (current element in the array). For each element in the array, it checks if the element is greater than 0. If it is, it adds the current element (cur) to the accumulator (acc), otherwise, it leaves the accumulator unchanged.
+
+// , 0): The reduce method takes an initial value for the accumulator as its second argument. In this case, the initial value is 0.
+
+
+console.log(positiveSum([1, 2, 3, 4, 5])); // 15
+console.log(positiveSum([1, -2, 3, 4, 5])); // 13
+console.log(positiveSum([-1, 2, 3, 4, -5])); // 9
+console.log(positiveSum([-1, -2, -3, -4, -5])); // 0
+console.log(positiveSum([])); // 0
+
