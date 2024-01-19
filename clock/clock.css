@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e60f0f;
+    color: black;
+    transition : background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+}
+
+.container {
+    /* display: flex; */
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    padding: 25px 35px;
+    background: rgb(21, 43, 206);
+    border-radius: 10px;
+    
+}
+
+
+#digitalClock {
+    font-size: 10em;
+}
+
+.tophead{
+    font-weight: 1800px;
+    font-size: 60px;
+    margin-top: 5px;
+    
+}
+/* #fulScrn{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+} */
+#fullscreenElement {
+    font-size: 2em;
+    cursor: pointer;
+    color: #ffff;
+  }
+#fullscreenExit {
+    font-size: 2em;
+    cursor: pointer;
+    color: #ffff;
+  }
+
+/* Dark Theme Styles */
+body.dark-theme {
+    background-color: #333;
+    color: #f5f5f5;
+}
+.dark-theme > .container {
+    background: black !important;
+    color: #ffff;
+}
+
+
+/* Toggle Button Styles */
+#lightModeToggle {
+    margin-top: 40px; 
+    margin-left: 10px;
+    /* margin-right: px; */
+    /* padding: 10px;  */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#darkModeToggle {
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* #themeToggle:hover {
+    background-color: #2980b9;
+} */
+
+
+
+#alarmInput {
+    font-size: 1em;
+    margin-right: 10px;
+  }
+
+  #setAlarmButton {
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  #alarmMessage {
+    font-size: 2em;
+    color: red;
+    margin-top: 20px;
+  }

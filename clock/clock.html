@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div id="container-box" class="container">
+      <p class="tophead">Digital Clock</p>
+
+      <div id="alarm">
+        <input type="time" id="alarmInput" step="1" />
+        <button id="setAlarmButton" onclick="setAlarm()">Set Alarm</button>
+        <p id="alarmMessage"></p>
+        <audio id="alarm_audio" src="./alarmAudio.mp3"></audio>
+      </div>
+      <div id="digitalClock"></div>
+      <div>
+        <div
+          id="fullscreenElement"
+          class="material-symbols-outlined full"
+          onclick="toggleFullscreen()"
+        >
+          fullscreen
+        </div>
+        <!-- <span id="fullscreenExit" class="material-symbols-outlined exit" onclick="toggleFullscreenExit()">
+        fullscreen_exit
+        </span> -->
+
+        <!-- <input type="time" id="alarmInput" step="1">
+        <button id="setAlarmButton" onclick="setAlarm()">Set Alarm</button>
+        <p id="alarmMessage"></p> -->
+
+        <button id="lightModeToggle" class="material-symbols-outlined">
+          light_mode
+        </button>
+        <button id="darkModeToggle" class="material-symbols-outlined">
+          dark_mode
+        </button>
+        <button id="fullbtn" onclick="screenFull()">full button</button>
+        <button id="exitbtn" onclick="screenExit()">exit button</button>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
