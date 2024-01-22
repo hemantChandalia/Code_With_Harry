@@ -1,0 +1,582 @@
+{
+    "message": "Success",
+    "status": 1,
+    "data": [
+      {
+        "id": 1,
+        "origin": "VIDEO",
+        "type": "chat",
+        "prompts": [
+          {
+            "prompt_id": 1,
+            "text": "What activities can I do in Santorini?",
+            "type": 0,
+            "order": 1,
+            "usage": 2
+          },
+          {
+            "prompt_id": 2,
+            "text": "Are there any nearby attractions to visit?",
+            "type": 0,
+            "order": 2,
+            "usage": 2
+          },
+          {
+            "prompt_id": 3,
+            "text": "What is the best time to visit Santorini?",
+            "type": 0,
+            "order": 3,
+            "usage": 2
+          },
+          {
+            "prompt_id": 4,
+            "text": "What is the average cost of staying at Charisma Suites?",
+            "type": 0,
+            "order": 4,
+            "usage": 1
+          },
+          {
+            "prompt_id": 5,
+            "text": "Are there any restaurants or cafes near the hotel?",
+            "type": 0,
+            "order": 5,
+            "usage": 1
+          }
+        ],
+        "metadata": {
+          "video_id": "c8367d4c-5d67-43dd-a360-44068a93c7d1"
+        },
+        "source": {
+          "video_id": "c8367d4c-5d67-43dd-a360-44068a93c7d1",
+          "item_id": "272ed155-00bf-4372-8da6-f3dcc467ce79",
+          "display_name": "Charisma Suites",
+          "video_caption": "Mediterranean vistas in surreal Santorini",
+          "description": "Soak in sunset views of the caldera from the infinity pools of this hilltop retreat. Perfect to unwind over drinks with your better half.\n\nProperty Location With a stay at Charisma Suites in Santorini (Oia), youll be minutes from Oia Castle and Naval Museum.  This 4-star hotel is within close proximity of Baxedes Beach and Cape Columbo Beach.Rooms Make yourself at home in one of the 7 air-conditioned rooms featuring iPod docking stations and flat-screen televisions. Rooms have private furnished patios. Complimentary wireless Internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with bathtubs or showers feature complimentary toiletries and hair dryers.Rec, Spa, Premium Amenities Enjoy recreation amenities such as an outdoor pool or take in the view from a terrace. Additional amenities include complimentary wireless Internet access, concierge services, and wedding services.Dining Take advantage of the hotels 24-hour room service. While enjoying a refreshing dip in the hotel pool, you can order your favorite drink at the poolside bar.Business, Other Amenities Featured amenities include express check-in, express check-out, and dry cleaning/laundry services.",
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/FLORINA+TOMA/qvf9844sn53hndqoeulm8ggd7r.mp4"
+          },
+          "intent_type": 6,
+          "redirect_url": "https://www.hotelscombined.com/hotels/Charisma-Suites,Greece-c46800-h764635-details?a_aid=244037",
+          "share_url": "https://appunravel.page.link/Uj29",
+          "image": {
+            "twoX": {
+              "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/da476105-a94f-452b-9164-7ad0785b4b4c_twox_390x390.jpg",
+              "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/da476105-a94f-452b-9164-7ad0785b4b4c_twox_256x368.jpg",
+              "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/da476105-a94f-452b-9164-7ad0785b4b4c_twox_343x168.jpg",
+              "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/da476105-a94f-452b-9164-7ad0785b4b4c_twox_72x72.jpg",
+              "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/da476105-a94f-452b-9164-7ad0785b4b4c_twox_390x693.jpg",
+              "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/da476105-a94f-452b-9164-7ad0785b4b4c_twox_360x640.jpg"
+            },
+            "threeX": {
+              "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/da476105-a94f-452b-9164-7ad0785b4b4c_threex_390x390.jpg",
+              "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/da476105-a94f-452b-9164-7ad0785b4b4c_threex_256x368.jpg",
+              "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/da476105-a94f-452b-9164-7ad0785b4b4c_threex_343x168.jpg",
+              "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/da476105-a94f-452b-9164-7ad0785b4b4c_threex_72x72.jpg",
+              "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/da476105-a94f-452b-9164-7ad0785b4b4c_threex_390x693.jpg",
+              "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/da476105-a94f-452b-9164-7ad0785b4b4c_threex_360x640.jpg"
+            }
+          },
+          "item_type": "HOTEL",
+          "address": {
+            "city": "Santorini",
+            "country": "Greece",
+            "country_code": "GR",
+            "continent": "Europe"
+          },
+          "location": {
+            "latitude": 36.4614722,
+            "longitude": 25.3724844
+          },
+          "order": 22,
+          "properties": {
+            "price": [
+              {
+                "text": "From ",
+                "type": "",
+                "unit": "EUR",
+                "value": 621.0
+              }
+            ],
+            "budget": "budget",
+            "star_rating": 4,
+            "stay_awards": [
+              "World Travel Awards, Greece's Leading Hotel Suite 2020",
+              "Rated 9.7 for a two-person trip on Booking.com"
+            ],
+            "sub_heading": null,
+            "redirect_url": "https://www.hotelscombined.com/hotels/Charisma-Suites,Greece-c46800-h764635-details?a_aid=244037",
+            "redirect_text": "You will be taken to an external website to complete this action",
+            "review_summary": [
+              {
+                "tag": "Exceptional",
+                "source": "Booking.com",
+                "max_rating": 10.0,
+                "review_count": 320.0,
+                "review_rating": 9.6
+              }
+            ],
+            "dist_from_centre": {
+              "text": "11.5 km from centre",
+              "unit": "km",
+              "value": 11.5
+            },
+            "primary_sub_category": "Spa & wellness, Seclusion, Sea views"
+          },
+          "curator_info": null,
+          "destination_info": {
+            "destination_id": "e40bb211-a0a7-413f-9cd0-8ad4cce36e67",
+            "trip_available": false,
+            "activity_available": false,
+            "vacation_home_available": true
+          },
+          "offer": {
+            "offer_present": false,
+            "type": null,
+            "discount": null,
+            "offer_text": null
+          },
+          "prompt_list": [
+            {
+              "usage": 2,
+              "prompt_id": "1",
+              "text": "What activities can I do in Santorini?",
+              "order": 1
+            },
+            {
+              "usage": 2,
+              "prompt_id": "2",
+              "text": "Are there any nearby attractions to visit?",
+              "order": 2
+            },
+            {
+              "usage": 2,
+              "prompt_id": "3",
+              "text": "What is the best time to visit Santorini?",
+              "order": 3
+            },
+            {
+              "usage": 1,
+              "prompt_id": "4",
+              "text": "What is the average cost of staying at Charisma Suites?",
+              "order": 4
+            },
+            {
+              "usage": 1,
+              "prompt_id": "5",
+              "text": "Are there any restaurants or cafes near the hotel?",
+              "order": 5
+            },
+            {
+              "usage": 2,
+              "prompt_id": "6",
+              "text": "Can I go swimming in Santorini?",
+              "order": 6
+            },
+            {
+              "usage": 2,
+              "prompt_id": "7",
+              "text": "Is Santorini a family-friendly destination?",
+              "order": 7
+            },
+            {
+              "usage": 2,
+              "prompt_id": "8",
+              "text": "What is the weather like in Santorini?",
+              "order": 8
+            },
+            {
+              "usage": 2,
+              "prompt_id": "9",
+              "text": "Are there any hiking trails in Santorini?",
+              "order": 9
+            },
+            {
+              "usage": 2,
+              "prompt_id": "10",
+              "text": "Can I rent a car or bike in Santorini?",
+              "order": 10
+            }
+          ]
+        }
+      },
+       {
+        "id": 1,
+        "origin": "VIDEO",
+        "type": "chat",
+        "prompts": [
+          {
+            "prompt_id": 1,
+            "text": "What activities can I do in Santorini?",
+            "type": 0,
+            "order": 1,
+            "usage": 2
+          },
+          {
+            "prompt_id": 2,
+            "text": "Are there any nearby attractions to visit?",
+            "type": 0,
+            "order": 2,
+            "usage": 2
+          },
+          {
+            "prompt_id": 3,
+            "text": "What is the best time to visit Santorini?",
+            "type": 0,
+            "order": 3,
+            "usage": 2
+          },
+          {
+            "prompt_id": 4,
+            "text": "What is the average cost of staying at Charisma Suites?",
+            "type": 0,
+            "order": 4,
+            "usage": 1
+          },
+          {
+            "prompt_id": 5,
+            "text": "Are there any restaurants or cafes near the hotel?",
+            "type": 0,
+            "order": 5,
+            "usage": 1
+          }
+        ],
+        "metadata": {
+          "video_id": "c8367d4c-5d67-43dd-a360-44068a93c7d1"
+        },
+        "source": {
+          "video_id": "c8367d4c-5d67-43dd-a360-44068a93c7d1",
+          "item_id": "272ed155-00bf-4372-8da6-f3dcc467ce79",
+          "display_name": "Charisma Suites",
+          "video_caption": "Mediterranean vistas in surreal Santorini",
+          "description": "Soak in sunset views of the caldera from the infinity pools of this hilltop retreat. Perfect to unwind over drinks with your better half.\n\nProperty Location With a stay at Charisma Suites in Santorini (Oia), youll be minutes from Oia Castle and Naval Museum.  This 4-star hotel is within close proximity of Baxedes Beach and Cape Columbo Beach.Rooms Make yourself at home in one of the 7 air-conditioned rooms featuring iPod docking stations and flat-screen televisions. Rooms have private furnished patios. Complimentary wireless Internet access keeps you connected, and satellite programming is available for your entertainment. Private bathrooms with bathtubs or showers feature complimentary toiletries and hair dryers.Rec, Spa, Premium Amenities Enjoy recreation amenities such as an outdoor pool or take in the view from a terrace. Additional amenities include complimentary wireless Internet access, concierge services, and wedding services.Dining Take advantage of the hotels 24-hour room service. While enjoying a refreshing dip in the hotel pool, you can order your favorite drink at the poolside bar.Business, Other Amenities Featured amenities include express check-in, express check-out, and dry cleaning/laundry services.",
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/FLORINA+TOMA/qvf9844sn53hndqoeulm8ggd7r.mp4"
+          },
+          "intent_type": 6,
+          "redirect_url": "https://www.hotelscombined.com/hotels/Charisma-Suites,Greece-c46800-h764635-details?a_aid=244037",
+          "share_url": "https://appunravel.page.link/Uj29",
+          "image": {
+            "twoX": {
+              "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/da476105-a94f-452b-9164-7ad0785b4b4c_twox_390x390.jpg",
+              "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/da476105-a94f-452b-9164-7ad0785b4b4c_twox_256x368.jpg",
+              "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/da476105-a94f-452b-9164-7ad0785b4b4c_twox_343x168.jpg",
+              "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/da476105-a94f-452b-9164-7ad0785b4b4c_twox_72x72.jpg",
+              "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/da476105-a94f-452b-9164-7ad0785b4b4c_twox_390x693.jpg",
+              "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/da476105-a94f-452b-9164-7ad0785b4b4c_twox_360x640.jpg"
+            },
+            "threeX": {
+              "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/da476105-a94f-452b-9164-7ad0785b4b4c_threex_390x390.jpg",
+              "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/da476105-a94f-452b-9164-7ad0785b4b4c_threex_256x368.jpg",
+              "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/da476105-a94f-452b-9164-7ad0785b4b4c_threex_343x168.jpg",
+              "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/da476105-a94f-452b-9164-7ad0785b4b4c_threex_72x72.jpg",
+              "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/da476105-a94f-452b-9164-7ad0785b4b4c_threex_390x693.jpg",
+              "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/da476105-a94f-452b-9164-7ad0785b4b4c_threex_360x640.jpg"
+            }
+          },
+          "item_type": "HOTEL",
+          "address": {
+            "city": "Santorini",
+            "country": "Greece",
+            "country_code": "GR",
+            "continent": "Europe"
+          },
+          "location": {
+            "latitude": 36.4614722,
+            "longitude": 25.3724844
+          },
+          "order": 22,
+          "properties": {
+            "price": [
+              {
+                "text": "From ",
+                "type": "",
+                "unit": "EUR",
+                "value": 621.0
+              }
+            ],
+            "budget": "budget",
+            "star_rating": 4,
+            "stay_awards": [
+              "World Travel Awards, Greece's Leading Hotel Suite 2020",
+              "Rated 9.7 for a two-person trip on Booking.com"
+            ],
+            "sub_heading": null,
+            "redirect_url": "https://www.hotelscombined.com/hotels/Charisma-Suites,Greece-c46800-h764635-details?a_aid=244037",
+            "redirect_text": "You will be taken to an external website to complete this action",
+            "review_summary": [
+              {
+                "tag": "Exceptional",
+                "source": "Booking.com",
+                "max_rating": 10.0,
+                "review_count": 320.0,
+                "review_rating": 9.6
+              }
+            ],
+            "dist_from_centre": {
+              "text": "11.5 km from centre",
+              "unit": "km",
+              "value": 11.5
+            },
+            "primary_sub_category": "Spa & wellness, Seclusion, Sea views"
+          },
+          "curator_info": null,
+          "destination_info": {
+            "destination_id": "e40bb211-a0a7-413f-9cd0-8ad4cce36e67",
+            "trip_available": false,
+            "activity_available": false,
+            "vacation_home_available": true
+          },
+          "offer": {
+            "offer_present": false,
+            "type": null,
+            "discount": null,
+            "offer_text": null
+          },
+          "prompt_list": [
+            {
+              "usage": 2,
+              "prompt_id": "1",
+              "text": "What activities can I do in Santorini?",
+              "order": 1
+            },
+            {
+              "usage": 2,
+              "prompt_id": "2",
+              "text": "Are there any nearby attractions to visit?",
+              "order": 2
+            },
+            {
+              "usage": 2,
+              "prompt_id": "3",
+              "text": "What is the best time to visit Santorini?",
+              "order": 3
+            },
+            {
+              "usage": 1,
+              "prompt_id": "4",
+              "text": "What is the average cost of staying at Charisma Suites?",
+              "order": 4
+            },
+            {
+              "usage": 1,
+              "prompt_id": "5",
+              "text": "Are there any restaurants or cafes near the hotel?",
+              "order": 5
+            },
+            {
+              "usage": 2,
+              "prompt_id": "6",
+              "text": "Can I go swimming in Santorini?",
+              "order": 6
+            },
+            {
+              "usage": 2,
+              "prompt_id": "7",
+              "text": "Is Santorini a family-friendly destination?",
+              "order": 7
+            },
+            {
+              "usage": 2,
+              "prompt_id": "8",
+              "text": "What is the weather like in Santorini?",
+              "order": 8
+            },
+            {
+              "usage": 2,
+              "prompt_id": "9",
+              "text": "Are there any hiking trails in Santorini?",
+              "order": 9
+            },
+            {
+              "usage": 2,
+              "prompt_id": "10",
+              "text": "Can I rent a car or bike in Santorini?",
+              "order": 10
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "origin": "CUSTOM",
+        "type": "chat",
+        "prompts": [
+          {
+            "prompt_id": 571,
+            "text": "How do I get to Thorsmörk to see these towering waterfalls?",
+            "type": 0,
+            "order": 1,
+            "usage": 1
+          },
+          {
+            "prompt_id": 572,
+            "text": "Are there any other attractions in Thorsmörk besides the waterfalls?",
+            "type": 0,
+            "order": 2,
+            "usage": 1
+          },
+          {
+            "prompt_id": 573,
+            "text": "What is the best time of year to visit Thorsmörk?",
+            "type": 0,
+            "order": 3,
+            "usage": 2
+          },
+          {
+            "prompt_id": 574,
+            "text": "Are there any guided nature tours available in Thorsmörk?",
+            "type": 0,
+            "order": 4,
+            "usage": 1
+          },
+          {
+            "prompt_id": 576,
+            "text": "What other natural wonders can I explore in Iceland?",
+            "type": 0,
+            "order": 5,
+            "usage": 1
+          }
+        ],
+        "metadata": {
+          "display_name": "What can you do",
+          "address": {
+            "city": "Bora Bora",
+            "country": "French Polynesia",
+            "continent": "Oceania",
+            "country_code": "PF",
+            "neighbourhood": ""
+          },
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/ALEX/k31gp4rm414ipci2e38ddo3v09.mp4"
+          },
+          "images": [
+            {
+              "twoX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_360x640.jpg"
+              },
+              "threeX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_360x640.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "display_name": "What can you do",
+          "address": {
+            "city": "Bora Bora",
+            "country": "French Polynesia",
+            "continent": "Oceania",
+            "country_code": "PF",
+            "neighbourhood": ""
+          },
+          "video_caption": "Mediterranean vistas in surreal Santorini",
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/ALEX/k31gp4rm414ipci2e38ddo3v09.mp4"
+          },
+          "images": [
+            {
+              "twoX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_twox_360x640.jpg"
+              },
+              "threeX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/7c4cac23-9ae9-4ac6-9c73-1146fb56c9a0_threex_360x640.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "origin": "CUSTOM",
+        "type": "find_destination",
+        "prompts": null,
+        "metadata": {
+          "display_name": "Find me destinations for winter",
+          "address": {
+            "city": "Athens",
+            "country": "Greece",
+            "continent": "Europe",
+            "country_code": "GR",
+            "neighbourhood": ""
+          },
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/FLORINA+TOMA/98ctcfpbst0rp16mjirj4mjc7k.mp4"
+          },
+          "images": [
+            {
+              "twoX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_360x640.jpg"
+              },
+              "threeX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_360x640.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "display_name": "Find me destinations for winter",
+          "address": {
+            "city": "Athens",
+            "country": "Greece",
+            "continent": "Europe",
+            "country_code": "GR",
+            "neighbourhood": ""
+          },
+          "video_caption": "Mediterranean vistas in surreal Santorini",
+          "video_url": {
+            "med": "https://d1tf573zhz3zzy.cloudfront.net/data/content/videos/CantoTranscoded/720p/FLORINA+TOMA/98ctcfpbst0rp16mjirj4mjc7k.mp4"
+          },
+          "images": [
+            {
+              "twoX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/4b71b60a-f456-4933-ba4a-49e98d8f6700_twox_360x640.jpg"
+              },
+              "threeX": {
+                "square": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/square/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_390x390.jpg",
+                "portrait": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/portrait/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_256x368.jpg",
+                "landscape": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/landscape/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_343x168.jpg",
+                "thumbnail": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/thumbnail/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_72x72.jpg",
+                "fullscreen": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/fullscreen/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_390x693.jpg",
+                "transcoded": "https://d1tf573zhz3zzy.cloudfront.net/data/content/images/itemImages/VIDEO/transcoded/4b71b60a-f456-4933-ba4a-49e98d8f6700_threex_360x640.jpg"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

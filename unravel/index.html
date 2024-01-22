@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Unravel</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- chat from team====== -->
+    <div class="chat-container">
+      <div class="message-container" id="messageContainer">
+        <!-- <div class="chatfromteam"></div> -->
+        <p>Ask about anything or select an option to start your journey</p>
+      </div>
+
+      <!-- videos box ========== -->
+      <!-- video fetching -->
+
+      <div class="main-container" id="video-gallery"></div>
+      <!-- user input======= -->
+      <input
+        type="text"
+        class="user-input"
+        placeholder="Ask Aide"
+        id="userInput"
+        onkeydown="sendMessage(event)"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- 
+<div class="main-container" id="video-gallery">
+  <div class="video-container">
+      <div class="gradient-overlay"></div> -->
