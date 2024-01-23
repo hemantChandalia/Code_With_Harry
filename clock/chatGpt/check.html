@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alarm Clock</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #alarmInput {
+      font-size: 1em;
+      margin-right: 10px;
+    }
+
+    #setAlarmButton {
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    #alarmMessage {
+      font-size: 2em;
+      color: red;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <input type="time" id="alarmInput" step="1">
+  <button id="setAlarmButton" onclick="setAlarm()">Set Alarm</button>
+  <p id="alarmMessage"></p>
+  <audio controls id="alarmAudio" src="../alarmAudio.mp3"></audio>
+
+  <script>
+    function setAlarm() {
+      const alarmInput = document.getElementById('alarmInput');
+      const alarmMessage = document.getElementById('alarmMessage');
+      const alarmAudio = document.getElementById('alarmAudio');
+      // Parse the selected time from the input
+      const alarmTime = new Date();
+      const [hours, minutes] = alarmInput.value.split(':');
+      alarmTime.setHours(parseInt(hours, 10));
+      alarmTime.setMinutes(parseInt(minutes, 10));
+      alarmTime.setSeconds(0);
+
+      // Get the current time
+      const currentTime = new Date();
+
+      // Calculate the time difference
+      const timeDiff = alarmTime - currentTime;
+
+      if (timeDiff > 0) {
+        // Set the alarm using setTimeout
+        setTimeout(() => {
+          alarmMessage.textContent = 'Alarm!';
+          alarmAudio.play();
+        }, timeDiff);
+      } else {
+        // Display an error message if the selected time is in the past
+        alarmMessage.textContent = 'Please select a future time for the alarm.';
+      }
+    }
+  </script>
+</body>
+</html>
+
+<!-- ======================= -->

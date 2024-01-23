@@ -31,8 +31,6 @@ fetch("./data.json")
 
 //   fetching video ====================
 
-
-
 // Function to create video gallery
 function createVideoGallery(videoData) {
   let videoArray = videoData?.data;
