@@ -136,3 +136,92 @@ let arr = [1,43,5,6,34,235,6,7,5,4,3,2,4,6,7,9,7,5,4];
 
 // let max = Math.max(...arr);
 console.log(Math.max(...arr));
+
+
+
+// Create a function that will return a Boolean specifying if a number is prime
+
+
+function checkNum(num){
+    // Corner case 
+
+if (num <=1){
+    return false;
+}
+    // Check from 2 to n-1 
+
+for (let i =2; i<num; i++){
+
+ if (num%i==0) {
+    return false;
+ }
+ 
+}
+
+return true;
+ 
+}
+
+console.log(checkNum(23));
+
+// Calculate the sum of digits of a positive integer number
+
+let arr = [12, 34, -2, 24, -5, 42, 46, 35, 2, 56, 7, -65, 43];
+
+function sumArrayNum() {
+    let positiveSum = 0;
+    let negativeSum = 0;
+
+    for (let num of arr) {
+        if (num > 0) {
+            positiveSum += num;
+        } else if (num < 0) {
+            negativeSum += num;
+        }
+    }
+
+    return {
+        positive: positiveSum,
+        negative: negativeSum
+    };
+}
+
+let result = sumArrayNum();
+
+console.log(result);
+console.log(result.positive);
+console.log(result.negative);
+//   other methods also===================
+
+
+
+ // Calculate the sum of digits of a positive integer number
+
+function isPrime(num) {
+    if (num <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    return true;
+  }
+  
+  function findPrimesGreaterThanN(p, n) {
+    const primes = [];
+    let currentNumber = n + 1; // Start checking from the next number after n
+  
+    while (primes.length < p) {
+      if (isPrime(currentNumber)) {
+        primes.push(currentNumber);
+      }
+      currentNumber++;
+    }
+  
+    return primes;
+  }
+  
+  // Example usage:
+  const numberOfPrimes = 5;
+  const startingNumber = 1;
+  const result = findPrimesGreaterThanN(numberOfPrimes, startingNumber);
+  console.log(result);
+  
